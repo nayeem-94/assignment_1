@@ -1,24 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.cont {
+    background-image: url(/Assets/Hero-bg.png);
+}
+nav{
+    padding: 40px ;
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
     display: flex;
     justify-content: space-between;
-    background-color: aqua;
     width: 70%;
     margin: 0 auto;
-    
-}
-div {
-    background-color: antiquewhite;
-    text-align: center;
-    color: rgb(0, 0, 0);
-    width: 50%;
-    justify-self: center;
-}
-h3 {
-    background-color: rgb(143, 77, 77);
-    /* width: 40%; */
-    justify-self: center
+
+
 }
 
+nav ul li {
+    padding: 60px 0px 10px 00px;
+    font-size: 40px;
+    font-weight: 600;
+    color: #3f39f0;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+
+.two {
+    background-color:  #4E47FF;
+    border-radius: 12px;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+    &:hover {
+        background-color: #09b014;
+    }
+}
+
+.one {
+    text-align: center;
+    color: rgb(11, 1, 1);
+    font-size: 48px;
+    font-weight: 400;
+    width: 80%;
+    margin: 10px auto;
+    padding: 50px 0px 70px 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.6;    
+}
+
+.banner {
+    text-align: center;
+    width: 60%;
+    margin: 10px auto;
+    padding: 0px 0px 90px 0px;
+}
