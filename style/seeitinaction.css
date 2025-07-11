@@ -1,0 +1,26 @@
+.seeitinaction {
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.seeitinaction h1 ,p{
+    padding: 0px 0px 20px 50px;
+}
+.seeitinaction h1 {
+    padding: 0px 0px 25px 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+}
+.seeitinaction p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+.seeitinaction button{
+    margin: 20px 0px 0px 50px;
+}
+.seeitinaction img{
+    border-radius: 30px;
+}
