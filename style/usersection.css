@@ -1,0 +1,33 @@
+.productiveUser{
+    background-color: rgb(221, 222, 238);
+    margin: 50px 200px 50px 200px
+    
+
+}
+.productiveUser h3{
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.usersnumber ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    list-style: none;
+}
+.usersnumber ul li{
+    margin: 0 50px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+span{
+    /* background-color: rgb(171, 171, 184); */
+    color: #3f39f0;
+    font-weight: bold;
+    font-size: 50px;
+}
