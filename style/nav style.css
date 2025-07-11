@@ -1,0 +1,24 @@
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    width: 70%;
+    margin: 0 auto;
+    
+}
+div {
+    background-color: antiquewhite;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    width: 50%;
+    justify-self: center;
+}
+h3 {
+    background-color: rgb(143, 77, 77);
+    /* width: 40%; */
+    justify-self: center
+}
+
